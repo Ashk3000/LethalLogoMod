@@ -1,8 +1,8 @@
 {
-    "name": "TestMod",
+    "name": "Lethal Logo Mod",
     "version_number": "1.0.0",
     "website_url": "https://github.com/Ashk3000/LethalLogoMod",
-    "description": "This is a description for a mod. 250 characters max",
+    "description": "This mod allows you to change the logo displayed at the top of the screen in the Lethal Company menu.",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
     ]
