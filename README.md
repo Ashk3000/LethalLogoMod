@@ -25,4 +25,4 @@ run `dotnet build`, then copy `LethalLogoMod.dll` from `bin\Debug` to `Mod Conte
 If you get an error when build try running `dotnet clean` before trying again.
 
 ### Publishing
-To publish the mod, build it, then put the contents of `Mod Contents` in a zip file named `Ashk3000-LethalLogoMod-x.y.z.zip` (replace x.y.z with the version number)
+To publish the mod, build it, then put the contents of `Mod Contents` in a zip file named `Ashk3000-LethalLogoMod-x.y.z.zip`. (replace x.y.z with the version number)
