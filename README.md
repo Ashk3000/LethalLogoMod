@@ -18,6 +18,11 @@ Feel Free to read and edit `Lethal Company\BepInEx\config\com.ashk3000.LethalLog
 - Don't use anti-aliasing
 - Use the default logo's outline to make your logo look nice
 
-## Building
-run `dotnet build`, then copy `LethalLogoMod.dll` from `bin\Debug` to Mod `Contents\plugins\Ashk3000-LethalLogoMod`.
+## Developing
+
+### Building
+run `dotnet build`, then copy `LethalLogoMod.dll` from `bin\Debug` to `Mod Contents\plugins\Ashk3000-LethalLogoMod`.
 If you get an error when build try running `dotnet clean` before trying again.
+
+### Publishing
+To publish the mod, build it, then put the contents of `Mod Contents` in a zip file named `Ashk3000-LethalLogoMod-x.y.z.zip` (replace x.y.z with the version number)
