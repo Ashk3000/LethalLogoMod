@@ -19,7 +19,7 @@ namespace LethalLogoMod
 	{
 		public const string modGUID = "com.ashk3000.LethalLogoMod";
 		public const string modName = "Lethal Logo Mod";
-		public const string modVersion = "1.0.0.0";
+		public const string modVersion = "1.0.0";
 
 		public static ConfigEntry<string> imagePath;
 
@@ -33,7 +33,7 @@ namespace LethalLogoMod
 			imagePath = Config.Bind("File", // section
 									"ImagePath", // key
 									defaultImagePath, // default
-									"Location of the logo. Its best with a 545 by 249 transparent PNG with no antialiasing."); // description
+                                    "Location of the logo. Its best with a 545 by 249 transparent PNG with no anti-aliasing."); // description
 			
 			string defaultLogoPath = Path.Combine(Paths.PluginPath, "Ashk3000-LethalLogoMod", "default.png");
 
