@@ -1,7 +1,7 @@
 {
     "name": "TestMod",
     "version_number": "1.0.0",
-    "website_url": "https://github.com/thunderstore-io",
+    "website_url": "https://github.com/Ashk3000/LethalLogoMod",
     "description": "This is a description for a mod. 250 characters max",
     "dependencies": [
         "BepInEx-BepInExPack-5.4.2100"
